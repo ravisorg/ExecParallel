@@ -1,0 +1,19 @@
+{
+    "name": "ravisorg/ExecParallel",
+    "description": "A CLI job queue for running multiple commands in parallel",
+    "license": "MIT",
+    "keywords": ["exec","system", "passthru","proc_open","proc_close","CLI","command line","parallel"],
+    "authors": [
+        {
+            "name": "Travis Richardson",
+            "email": "travis@ravis.org"
+        }
+    ],
+    "require": {},
+    "require-dev": {},
+    "autoload": {
+        "psr-4": {
+            "ExecParallel\\": "src"
+        }
+    }
+}
