@@ -1,5 +1,5 @@
 {
-    "name": "ravisorg/ExecParallel",
+    "name": "ravisorg/exec-parallel",
     "description": "A CLI job queue for running multiple commands in parallel",
     "license": "MIT",
     "keywords": ["exec","system", "passthru","proc_open","proc_close","CLI","command line","parallel"],
