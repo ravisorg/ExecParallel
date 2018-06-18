@@ -193,7 +193,7 @@ class Controller {
 		// updated via stream_select, but that's a pain and we're not going to have tens of
 		// thousands of jobs, so....)
 		foreach ($this->_jobs as $job) {
-			if ($status=='running') {
+			if ($job->status=='running') {
 				$job->readPipes();
 			}
 		}
